@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kia_Test</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+
+            <a href="#"><img class="logo_left" src="img/logo_avtoholding.png" alt="logo_avtoholding"></a>
+
+            <div class="adr">
+                Краснодар,<br>
+                Тургеневское шоссе, 25
+            </div>
+            <!--fancybox-->
+
+            <a data-fancybox data-options='{"src": "#exampleModal", "touch": false, "smallBtn" : false}'
+               href="javascript:;" class="btn  "><p>Заказать звонок</p></a>
+
+            <div style="display: none;max-width:500px;" id="exampleModal">
+                <h2 style="color: #1da1f2">¡Hola!</h2>
+                <p>You can chose to display small close button (customizable using `btnTpl.smallBtn` option; you
+                    can put any html here) or display the toolbar instead.</p>
+            </div>
+            <!--fancybox-->
+            <div class="logo_right">
+                <img src="img/logo_kia.png" alt="logo">
+            </div>
+        </div>
+    </div>
+</header>
+<section class="advert">
+    <div class="container">
+        <div class="advert__main">
+            <div class="text">
+                <div class="text__main">
+                    <div class="s_text"> Только до конца октября</div>
+                    <div class="b_text"> масштабные выгоды</div>
+                    <div class="s_text stp"> на весь модельный ряд!</div>
+                </div>
+                <div>
+                    <button class="btn_rw" onclick="">Забрать выгоду</button>
+                </div>
+                <div class="btn_dropdown">Подбери свой KIA
+                    <div class="dropdown">
+
+                        <ul class="group">
+                            <li><a href="#">Sorento</a></li>
+                            <li><a href="#">Sorento Prime</a></li>
+                            <li><a href="#">Mohave</a></li>
+
+                        </ul>
+                        <ul class="group">
+                            <li><a href="#">Optima NEW</a></li>
+                            <li><a href="#">Stinger</a></li>
+                            <li><a href="#"> Quoris </a></li>
+                            <li><a href="#">Soul</a></li>
+                            <li><a href="#"> Spotrage </a></li>
+                        </ul>
+                        <ul class="group">
+                            <li><a href="#">Picanto</a></li>
+                            <li><a href="#">Rio</a></li>
+                            <li><a href="#"> Rio X-Line</a></li>
+                            <li><a href="#"> Ceed SW</a></li>
+                            <li><a href="#"> Cerato NEW</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <img class="cars" src="img/cars.png">
+
+        </div>
+    </div>
+</section>
+
+<div class="container">
+<section class="offers">
+
+        <div class="offer">
+            <div class="offer_img">
+                <p> KIA Rio X-Line</p>
+                <img src="img/rio.png">
+            </div>
+            <div class="description">
+
+                <img class="mark" src="img/mark.png">
+                <p class="mark_text">Зимняя резина<br>
+                    в подарок</p>
+
+                <p class="offer_text">Выгода до 60 000 руб.</p>
+                <button class="offer__btn_wr">В кредит за 3 500 р./мес.</button>
+                <button class="offer__btn_rw">получить выгоду</button>
+                <button class="offer__btn_bw">спецпредложение</button>
+
+            </div>
+        </div>
+
+
+        <div class="offer">
+            <div class="offer_img">
+                <p> KIA Ceed New</p>
+                <img src="img/ceed.png">
+            </div>
+            <div class="description">
+
+                <img class="mark" src="img/mark.png">
+                <p class="mark_text">Зимняя резина<br>
+                    в подарок</p>
+
+                <p class="offer_text">Выгода до 60 000 руб.</p>
+                <button class="offer__btn_wr">В кредит за 3 500 р./мес.</button>
+                <button class="offer__btn_rw">получить выгоду</button>
+                <button class="offer__btn_bw">спецпредложение</button>
+
+            </div>
+        </div>
+  </section>
+</div>
+<section class="container">
+<iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A92f940fbd83f004c679d3d06791553170b217d232e415985db8e681057af94c7&amp;source=constructor" width="1000" height="380" frameborder="0"></iframe>
+</section>
+<!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A92f940fbd83f004c679d3d06791553170b217d232e415985db8e681057af94c7&amp;width=1000&amp;height=380&amp;lang=ru_RU&amp;scroll=true"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
